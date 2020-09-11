@@ -1,0 +1,9 @@
+.project-layout {
+    display: flex;
+    .project-description {
+        flex: 1 1 50%;
+    }
+    .project-image {
+        flex: 1 1 50%;
+    }
+}
