@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import SampleJson from 'src/assets/json/projectDetails.json';
 
 @Component({
   selector: 'app-project-list',
@@ -8,11 +9,11 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ProjectListComponent implements OnInit {
 
   public projectList;
-  
+
   constructor() { }
-  
+
   ngOnInit() {
-    this.projectList = new Array(3).fill(5);
+    this.projectList = SampleJson.projects;
   }
 
 }
