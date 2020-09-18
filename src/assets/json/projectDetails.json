@@ -1,0 +1,25 @@
+{
+    "name": "ProjectList",
+    "projects": [
+        {
+            "name": "Angular children updates in parent",
+            "id": "children_update",
+            "link": "https://stackblitz.com/edit/angular-ivy-6mc1ak",
+            "category" : "learning",
+            "mainTechnology": "Angular",
+            "difficulty": "hard",
+            "projectSize": "very small",
+            "technology": ["rxJS", "angular"]
+        },
+        {
+            "name": "Notebook",
+            "id": "notebook",
+            "link": "9ote.vercel.app",
+            "category" : "learning",
+            "mainTechnology": "Angular",
+            "difficulty": "easy",
+            "projectSize": "small",
+            "technology": ["rxJS", "angular", "typescript"]
+        }
+    ]
+}
