@@ -20,6 +20,66 @@
             "difficulty": "easy",
             "projectSize": "small",
             "technology": ["rxJS", "angular", "typescript"]
+        },
+        {
+            "name": "Notebook",
+            "id": "notebook",
+            "link": "9ote.vercel.app",
+            "category" : "learning",
+            "mainTechnology": "Angular",
+            "difficulty": "easy",
+            "projectSize": "small",
+            "technology": ["rxJS", "angular", "typescript"]
+        },
+        {
+            "name": "Notebook",
+            "id": "notebook",
+            "link": "9ote.vercel.app",
+            "category" : "learning",
+            "mainTechnology": "Angular",
+            "difficulty": "easy",
+            "projectSize": "small",
+            "technology": ["rxJS", "angular", "typescript"]
+        },
+        {
+            "name": "Notebook",
+            "id": "notebook",
+            "link": "9ote.vercel.app",
+            "category" : "learning",
+            "mainTechnology": "Angular",
+            "difficulty": "easy",
+            "projectSize": "small",
+            "technology": ["rxJS", "angular", "typescript"]
+        },
+        {
+            "name": "Notebook",
+            "id": "notebook",
+            "link": "9ote.vercel.app",
+            "category" : "learning",
+            "mainTechnology": "Angular",
+            "difficulty": "easy",
+            "projectSize": "small",
+            "technology": ["rxJS", "angular", "typescript"]
+        },
+        {
+            "name": "Notebook",
+            "id": "notebook",
+            "link": "9ote.vercel.app",
+            "category" : "learning",
+            "mainTechnology": "Angular",
+            "difficulty": "easy",
+            "projectSize": "small",
+            "technology": ["rxJS", "angular", "typescript"]
+        },
+        {
+            "name": "Notebook",
+            "id": "notebook",
+            "link": "9ote.vercel.app",
+            "category" : "learning",
+            "mainTechnology": "Angular",
+            "difficulty": "easy",
+            "projectSize": "small",
+            "technology": ["rxJS", "angular", "typescript"]
         }
     ]
 }
