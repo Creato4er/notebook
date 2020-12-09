@@ -1,11 +1,11 @@
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import * as Highcharts from 'highcharts';
 @Component({
   selector: 'app-skills',
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.scss']
 })
-export class SkillsComponent implements OnInit {
+export class SkillsComponent implements AfterViewInit {
   @ViewChild('charts') public chartEl: ElementRef;
   constructor() { }
   colors = ['#120078', '#9d0191', '#fd3a69', '#fecd1a']
