@@ -1,0 +1,22 @@
+  <mat-vertical-stepper [linear]="false" #stepper>
+    <mat-step>
+    <ng-template matStepLabel>College Education: NIT ROURKELA</ng-template>
+        <div class="card">
+            I have a B.Tech degree in civil engineering from NIT rourkela.
+        </div>
+    </mat-step>
+    <mat-step>
+        <ng-template matStepLabel>Infosys</ng-template>
+            <div class="card">
+                Infosys
+            </div>
+    </mat-step>
+    <mat-step>
+      <ng-template matStepLabel>VMware</ng-template>
+      <p>I am currently working in VMware India.</p>
+      <div>
+        <button mat-button matStepperPrevious>Back</button>
+        <button mat-button (click)="stepper.reset()">Reset</button>
+      </div>
+    </mat-step>
+  </mat-vertical-stepper>

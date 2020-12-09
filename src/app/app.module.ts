@@ -3,6 +3,11 @@ import { NgModule } from '@angular/core';
 // import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import {MatStepperModule} from '@angular/material/stepper';
+
+
 import { AppComponent } from './app.component';
 import { ProjectDescriptionComponent } from './components/project-description/project-description.component';
 import { ProjectImageComponent } from './components/project-image/project-image.component';
@@ -10,9 +15,9 @@ import { ProjectListComponent } from './components/project-list/project-list.com
 import { ProjectComponent } from './components/project-list/project/project.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import { AuthorDescriptionComponent } from './components/author-description/author-description.component';
+import { CareerJourneyComponent } from './components/career-journey/career-journey.component';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -23,13 +28,16 @@ import { AuthorDescriptionComponent } from './components/author-description/auth
     ProjectComponent,
     HeaderComponent,
     FooterComponent,
-    AuthorDescriptionComponent
+    AuthorDescriptionComponent,
+    CareerJourneyComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    MatStepperModule
     // NgbModule
   ],
   providers: [],
