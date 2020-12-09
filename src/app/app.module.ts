@@ -4,12 +4,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ProjectDescriptionComponent } from './project-description/project-description.component';
-import { ProjectImageComponent } from './project-image/project-image.component';
-import { ProjectListComponent } from './project-list/project-list.component';
-import { ProjectComponent } from './project-list/project/project.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
+import { ProjectDescriptionComponent } from './components/project-description/project-description.component';
+import { ProjectImageComponent } from './components/project-image/project-image.component';
+import { ProjectListComponent } from './components/project-list/project-list.component';
+import { ProjectComponent } from './components/project-list/project/project.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import { AuthorDescriptionComponent } from './components/author-description/author-description.component';
 
 @NgModule({
   declarations: [
@@ -19,11 +22,14 @@ import { FooterComponent } from './footer/footer.component';
     ProjectListComponent,
     ProjectComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    AuthorDescriptionComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
+    MatSlideToggleModule
     // NgbModule
   ],
   providers: [],

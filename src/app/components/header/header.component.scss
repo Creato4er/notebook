@@ -3,8 +3,11 @@
     height: 80px;
     border-bottom: 1px solid rgb(241, 240, 240);
     display: flex;
+    justify-content: space-between;
 }
 
-.logo-image {
-    height: 30px;
+.logo-container {
+    .logo-image {
+    height: 66px;
+    }
 }

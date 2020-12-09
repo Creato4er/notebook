@@ -12,14 +12,14 @@ export class ProjectListComponent implements OnInit {
 
   constructor() { }
 
-  geoPattern = require('geopattern');
+  // geoPattern = require('geopattern');
 
   ngOnInit() {
     this.projectList = SampleJson.projects;
-    this.projectList.forEach((project) => {
-      const pattern = this.geoPattern.generate(project.name);
-      project.dataURL = pattern.toDataUrl();
-    });
+    // this.projectList.forEach((project) => {
+    //   const pattern = this.geoPattern.generate(project.name);
+    //   project.dataURL = pattern.toDataUrl();
+    // });
   }
 
 }
