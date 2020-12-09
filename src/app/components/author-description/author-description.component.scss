@@ -1,0 +1,22 @@
+.author-info-wrapper {
+    display: flex;
+    .author-info {
+        padding: 80px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.autor-image {
+    height: 240px;
+    border-radius: 50%;
+}
+
+.adjust-margin {
+    margin: 0;
+    margin-bottom: 22px;
+}
+.author-name {
+    font-size: 32px;
+    font-weight: 400;
+}
